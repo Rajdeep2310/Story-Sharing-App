@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar h2 {
+    margin: 10px; /* Remove default margin */
+  }
+  
+  .navbar div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar button,
+  .navbar span {
+    margin-left: 10px; /* Add margin between buttons and spans */
+  }
+
+  .navbar img {
+    width: 30px; /* Adjust image size if needed */
+  }
+  
+  .bookmarkBtn {
+    padding: 10px 20px;
+    background-color: rgba(255, 115, 115, 1);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .hamBtn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
